@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  display: flex;
+  min-width: 100vh;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.button-nav {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 8.2rem;
+}
+
+.button-red {
+  background: #FF4545;
+  color: #FFF;
+}
+
+.button-white {
+  color: #333333;
+  background: #fff;
+  transition: 0.2s all;
+}
+
+.button-white:hover {
+  border: 1px solid #FF4545;
+}
+
+.nav-container, .footer-container {
+  padding: 0 5%;
+}
+
+.navbar, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin-left: 20px;
+}
+
+.main-container {
+  padding: 0 8%;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.filters-section {
+  border-right: 1px solid #949497;
+}
+
+.filters-section a {
+  color: #292D32 !important;
+}
+
+.filters-section .heading {
+  font-size: 1.6rem;
+  color: #292D32;
+  font-weight: 500;
+}
+
+.count {
+  font-weight: 600;
+  font-size: 16px;
+  color: #656575;
+}
+
+.filters {
+  margin-top: 70px;
+}
+
+.filters-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.filter-type {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.filter-type > * {
+  margin-bottom: 12px;
+}
+
+.filter-type--heading {
+  font-weight: 700;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #FF4545;
+}
+
+.stat-card {
+  width: 97%;
+  box-shadow: 1px 1px 1px 2px rgba(89, 89, 90, 0.1);
+  padding: 30px 15px 15px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.stat-counter {
+  font-size: 3rem;
+  color: #454647;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #636365;
+}
+
+.stat-card img {
+  height: 50px;
+  width: 50px;
+}
+
+.table img {
+  height: 30px;
+}
+
+.table a {
+  padding: 0 12px;
+  border-left: 1px solid black;
+}
+
+
+.button-forms {
+  padding: 14px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-input-group {
+  margin-top: 30;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-group label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  line-height: 20px;
+  color: #696F79;
+}
+
+.form-input-group input {
+  padding: 10px 20px;
+  border: 1px solid rgb(193, 190, 190);
+  border-radius: 2px;
+  color: #696F79;
+}
+
+.form-submit {
+  margin: 30px 0;
+}
+
+.form-submit input[type="submit"] {
+  width: 200px;
+}
+
+.vehicle-form {
+  margin-bottom: 200px;
+}
+
+.pending-resv {
+  margin-top: 40px;
+}
